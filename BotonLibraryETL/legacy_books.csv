@@ -1,0 +1,6 @@
+Id,Title,Author,Genre,Available,PublishedYear
+1,Clean Code,Robert C. Martin,Programming,True,2008
+2,Code Complete,Steve McConnell,Programming,True,1999
+3,Design Patterns,Gang Of Four,Architecture,False,1994
+4,You Dont Know JS,Kyle Simpson,JavaScript,True,2015
+5,Introduction Of Algorithms,Clrs,General,True,2009
