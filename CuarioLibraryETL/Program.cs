@@ -1,6 +1,6 @@
-﻿using System.Security.Principal;
+using System.Security.Principal;
 
-var lines = File.ReadAllLines("legacy_books.csv");
+var lines = File.ReadAllLines(Path.Combine(AppContext.BaseDirectory, "legacy_books.csv"));
 var headers = lines[0].Split(',');
 var rawRecords = lines.Skip(1).Select(l => l.Split(',')).ToList();
 Console.WriteLine($"Extracted {rawRecords.Count} records.");
